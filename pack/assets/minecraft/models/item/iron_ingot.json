@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_ingot"
+  },
+  "overrides" : [
+    { "predicate": { "custom_model_data": 1 }, "model": "vehicle_models:body/truck_model" },
+    { "predicate": { "custom_model_data": 2 }, "model": "vehicle_models:wheels/truck_wheel" },
+    { "predicate": { "custom_model_data": 3 }, "model": "vehicle_models:body/jeep_model" },
+    { "predicate": { "custom_model_data": 4 }, "model": "vehicle_models:wheels/jeep_wheel" },
+    { "predicate": { "custom_model_data": 5 }, "model": "vehicle_models:body/helicopter_model" },
+    { "predicate": { "custom_model_data": 6 }, "model": "vehicle_models:misc/helicopter_rotor" },
+    { "predicate": { "custom_model_data": 7 }, "model": "vehicle_models:body/rallybuggy_model" },
+    { "predicate": { "custom_model_data": 8 }, "model": "vehicle_models:wheels/rally_wheel" },
+    { "predicate": { "custom_model_data": 9 }, "model": "vehicle_models:misc/helicopter_tailrotor" },
+    { "predicate": { "custom_model_data": 10 }, "model": "vehicle_models:body/plane_model" },
+    { "predicate": { "custom_model_data": 11 }, "model": "vehicle_models:wheels/plane_wheel" },
+    { "predicate": { "custom_model_data": 12 }, "model": "vehicle_models:misc/plane_propeller" },
+    { "predicate": { "custom_model_data": 13 }, "model": "vehicle_models:body/shoppingcart_model" },
+    { "predicate": { "custom_model_data": 14 }, "model": "vehicle_models:body/tank_model" },
+    { "predicate": { "custom_model_data": 15 }, "model": "vehicle_models:misc/tank_turret" },
+    { "predicate": { "custom_model_data": 16 }, "model": "vehicle_models:misc/tank_barrel" },
+    { "predicate": { "custom_model_data": 17 }, "model": "vehicle_models:body/scooter_model" },
+    { "predicate": { "custom_model_data": 18 }, "model": "vehicle_models:wheels/scooter_wheel" }
+  ]
+}
